@@ -1,0 +1,12 @@
+.chores {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: larger;
+}
+.chores h3 {
+    text-decoration: underline;
+    color: rgb(124, 46, 50)
+}
+.chores li {
+  font-style: italic;
+  color: rgb(240, 88, 96)
+}
