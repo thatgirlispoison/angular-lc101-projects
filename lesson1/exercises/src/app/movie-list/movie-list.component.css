@@ -1,6 +1,7 @@
 .movies h3 {
     color: rgb(42, 134, 103);
-    text-align: center;    
+    text-align: center;
+    text-decoration: underline;    
 }
 .movies li {
   color: rgb(68, 199, 155);
