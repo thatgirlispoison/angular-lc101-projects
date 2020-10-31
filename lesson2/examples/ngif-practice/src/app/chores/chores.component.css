@@ -16,3 +16,6 @@ img {
     display: block;
     margin: auto;
 }
+.chores p {
+    color: rgb(73, 155, 52)
+}
