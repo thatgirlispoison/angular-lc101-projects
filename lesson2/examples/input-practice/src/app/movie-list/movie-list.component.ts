@@ -12,4 +12,12 @@ export class MovieListComponent implements OnInit {
 
    ngOnInit() {
    }
+   addMovie(newTitle: string) {
+      if (newTitle === '') {
+         alert('You cannot enter an empty movie!')
+      }
+      else if (!this.movies.includes(newTitle)) {
+         this.movies.push(newTitle);
+      } 
+   }
 }
