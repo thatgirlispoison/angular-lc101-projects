@@ -24,16 +24,14 @@ export class CandidatesComponent implements OnInit {
   }
 
   // Code the addToCrew function here:
-addToCrew() {
-  
+addToCrew(crewMember:object) {
+  if(!this.crew.includes(crewMember)) {
+    this.crew.push(crewMember)
+  }
 }
 
   // BONUS: Code the changeMissionName function here:
 
 
 }
-// In candidates.component.ts, code an addToCrew function that takes an object as a parameter.
-// If the candidate is NOT part of the crew, the function should push them into the crew array.Candidates who are already part of the crew should be ignored.
-// In candidates.component.html, add a "Send on Mission" button next to the "Clear Data & Image" button.
-// Add a click event to the button to call the addToCrew function.When clicked, pass the selected candidate as the argument.
-// Under the "Selected Crew" section, use * ngFor to loop over the crew array and display each name.
+
